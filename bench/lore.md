@@ -26,10 +26,16 @@ machine.
 
 ## Partition scheme
 
-`turn_counter.ino` links to ~1,320,000 bytes — about 9 KB over the default
-1.25 MB app partition — so a plain `--fqbn esp32:esp32:esp32s3` **fails** with
-"text section exceeds available space". Verified 2026-07-05 on esp32 core
-3.3.10 / FastLED 3.10.5.
+`turn_counter.ino` does not fit the default 1.25 MB (1,310,720 B) app
+partition, so a plain `--fqbn esp32:esp32:esp32s3` **fails** with "text section
+exceeds available space".
+
+The overshoot grows as the firmware does, so treat it as a trend, not a
+constant: 1,319,995 B (~9 KB over) on 2026-07-05 with esp32 core 3.3.10 /
+FastLED 3.10.5, and 1,376,459 B (~64 KB over) on 2026-09-04 after the tap
+guard work. Under `min_spiffs` that is 70% of the 1,966,080 B available, so
+there is room — but it is worth re-reading the size summary after any large
+feature rather than assuming the headroom is still there.
 
 Use `--fqbn esp32:esp32:esp32s3:PartitionScheme=min_spiffs` (1.9 MB app, keeps
 the OTA partition — required, the sketch uses ArduinoOTA). `huge_app` also links
@@ -116,3 +122,22 @@ The board cannot detect its power source — nothing distinguishes wall from
 battery at any GPIO. GPIO 10 is the one free ADC1 pin (piezos use 1, 2, 4–9;
 GPIO 3 is a JTAG strap) and would take a rail-sense divider if closed-loop
 backoff is ever wanted.
+
+## PDF builds are not byte-deterministic
+
+`make pdf` rebuilds five PDFs. Two behave badly in git:
+
+- **`turn_counter_design_doc.pdf` differs run to run** even with unmodified
+  sources — same size, but ~42,000 differing byte positions from offset
+  ~239,160, consistent with font subsetting rather than a timestamp. There is
+  no date in the `doc-src/*.py` sources.
+- **`design_doc_simple.pdf` is stable run to run** but shifted once (+14 B)
+  when the venv was rebuilt on newer library versions.
+
+The other three (`dry_run`, `tap_light_circuit`, `bench_build_guide`) are
+byte-identical every time.
+
+**How to apply:** after `make pdf`, commit only the PDFs whose *source* you
+actually changed, and `git checkout` the rest. Otherwise every documentation
+commit drags ~461 KB of incompressible noise behind it. Measured 2026-09-04
+on weasyprint 66.0.
