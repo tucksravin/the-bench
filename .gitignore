@@ -1,0 +1,14 @@
+# Finder noise — the project-scoped .gitignore no longer covers this level
+.DS_Store
+**/.DS_Store
+
+# Insurance against cwd mistakes: bench scripts are cwd-sensitive, and a
+# hand-run make_qr.py / record_piezos.py from this root would scatter project
+# artifacts here, outside the reach of the project's own .gitignore.
+.venv/
+build/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+table_qr.pdf
