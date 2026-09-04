@@ -67,7 +67,7 @@ here so provenance survives:
 
 | Project | Source | Pre-merge tip | Imported |
 |---|---|---|---|
-| octagonal-led-turn-counter | `github.com/tucksravin/octagonal-led-turn-counter` (archived) | *(record at migration)* | 2026-09 |
+| octagonal-led-turn-counter | `github.com/tucksravin/octagonal-led-turn-counter` (archived) | `7b1ebb2` | 2026-09 |
 
 ## 7. Update the shared layer
 
