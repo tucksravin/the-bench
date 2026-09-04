@@ -1,0 +1,19 @@
+.venv/
+data/
+doc-src/_build_*.html
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Wi-Fi/OTA credentials — copy firmware/turn_counter/secrets.example.h to
+# secrets.h and fill it in. Ignored before the file exists so it can never be
+# staged by accident.
+firmware/*/secrets.h
+
+# arduino-cli build output for `make ota`
+build/
+
+# `make qr` output — encodes one network's address, so it's yours, not the repo's
+doc-src/table_qr.svg
+table_qr.pdf
