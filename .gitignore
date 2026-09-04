@@ -2,13 +2,21 @@
 .DS_Store
 **/.DS_Store
 
-# Insurance against cwd mistakes: bench scripts are cwd-sensitive, and a
-# hand-run make_qr.py / record_piezos.py from this root would scatter project
-# artifacts here, outside the reach of the project's own .gitignore.
+# Never wanted anywhere in the tree, at any depth. Left unanchored deliberately,
+# as defense in depth: a future project whose own .gitignore forgets these is
+# still covered.
 .venv/
-build/
-data/
 __pycache__/
 *.pyc
 .pytest_cache/
-table_qr.pdf
+
+# Insurance against cwd mistakes: bench scripts are cwd-sensitive, and a
+# hand-run make_qr.py / record_piezos.py from THIS directory would scatter
+# project artifacts here, outside the reach of the project's own .gitignore.
+#
+# Anchored with a leading slash so they match only at the bench root. Unanchored
+# they would match at every depth, and a future project that legitimately tracks
+# a data/ or build/ directory would find it silently ignored with no error.
+/build/
+/data/
+/table_qr.pdf

@@ -35,8 +35,10 @@ dead board. See `bench/lore.md`.
 The superpowers skills default to a repo-root `docs/superpowers/{specs,plans}/`.
 In this repo that is wrong for project work — write to
 `projects/<name>/docs/superpowers/{specs,plans}/` instead, so specs stay beside
-the code they describe. `writing-plans/SKILL.md:19` sanctions this override
-explicitly ("User preferences for plan location override this default").
+the code they describe. The superpowers `writing-plans` skill sanctions this
+override explicitly — right under its "Save plans to:" default it says
+"(User preferences for plan location override this default)" — so treat this
+as the user preference it defers to, not a house rule fighting the skill.
 
 The bench-root `docs/superpowers/` is reserved for genuinely cross-project
 work — the monorepo itself, shared tooling, bench-wide conventions.
