@@ -130,7 +130,7 @@ So the whole control box unplugs as a unit — 8 piezo JSTs + 1 strip JST + the 
 
 **Not needed** (vs. the full doc): Mean Well PSU, IEC inlet, AC switch, Anderson Powerpoles, DC blade fuse, 14 AWG silicone, PSU mounting block, ferrule crimper. That's ~$60+ of parts and all the mains wiring, gone.
 
-Plus shared tools (iron, solder, multimeter, etc.) — see [shopping_list.md](shopping_list.md). Surplus/owned parts are tracked in [inventory.md](inventory.md).
+Plus shared tools (iron, solder, multimeter, etc.) — see [shopping_list.md](shopping_list.md). Surplus/owned parts are tracked in [inventory.md](../../inventory.md).
 
 ---
 

@@ -1,12 +1,14 @@
 # Inventory
 
-Running record of parts bought for this project and — the point of this file — **what's left over for future projects.** A lot of the BOM came in bulk (100-packs of resistors, a 25-pack of Zeners, a 530-pc JST kit, 5 m of strip for a 4 m build), so the surplus is real. Check here before re-buying.
+The bench's running record of parts: what's been **bought**, what each project **consumed**, and — the point of this file — **what's still spare.** A lot of the buying happens in bulk (100-packs of resistors, a 25-pack of Zeners, a 530-pc JST kit, 5 m of strip for a 4 m build), so the surplus is real. Check here before re-buying anything for a new project.
 
-**How to maintain it:** the counts below are derived from the [shopping list](shopping_list.md) *orders*, not a physical count — reconcile against what actually arrived, then keep the **Spare** column current as you consume parts or restock. When a future project pulls from stock, decrement here and add a line under [Future / added stock](#future--added-stock).
+It lives at the bench root rather than inside a project because that surplus outlives the build that paid for it. The **Build uses** column so far is the octagonal turn counter, the first project through here; as other projects draw stock, log the drawdown under [Future / added stock](#future--added-stock) so the **Spare** column stays the honest number.
+
+**How to maintain it:** the counts below are derived from the [shopping list](projects/octagonal-led-turn-counter/shopping_list.md) *orders*, not a physical count — reconcile against what actually arrived, then keep the **Spare** column current as you consume parts or restock. When a future project pulls from stock, decrement here and add a line under [Future / added stock](#future--added-stock).
 
 **Where it's stored:** see the shopping list's "Bench organization" section — passives in the Akro-Mils 10164 drawers (labeled), connectors/Powerpole spares in the Plano 3700, strip offcuts in labeled ESD/zip bags.
 
-> Surplus assumes the **Mean Well PSU** power path. If you switch to the **USB powerbank** (design doc §3.5), the PSU, IEC inlet, switch, Powerpoles, DC fuse, and most of the 14 AWG wire all become spare — those rows are tagged ⚡.
+> Surplus assumes the turn counter's **Mean Well PSU** power path. If that build switches to the **USB powerbank** (its design doc §3.5), the PSU, IEC inlet, switch, Powerpoles, DC fuse, and most of the 14 AWG wire all become spare — those rows are tagged ⚡.
 
 ---
 
@@ -82,7 +84,7 @@ Pine 1×6 scrap, #8 wood screws (¾" + 1.5"), P-clips / adhesive mounts, ½–�
 
 ## Tools (reusable equipment)
 
-Owned after this project; available for anything future. Consumables among them (**bold**) deplete — restock when low.
+Owned by the bench; available to any project. Consumables among them (**bold**) deplete — restock when low.
 
 Pinecil V2 iron · **Kester 63/37 solder (1 lb)** · Hakko CHP-170 cutters · Irwin 2078300 strippers · AstroAI DM6000AR multimeter · helping hands · **Kester 951 flux pen** · **Eventronic heat-shrink kit** · **MG Chemicals 4-25 solder wick** · silicone bench mat · IWISS ferrule crimper + **ferrule assortment**.
 

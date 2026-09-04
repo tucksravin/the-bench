@@ -2,7 +2,7 @@
 
 Concrete parts list for the build. DigiKey-first sourcing for authenticity (especially the ESP32-S3, the Mean Well PSU, and the 74AHCT125 — all of which have counterfeits floating around on Amazon).
 
-**What's left over after the build** — the bulk-pack surplus, spare boards, extra strip — is tracked in [inventory.md](inventory.md), so future projects don't re-buy what you already own.
+**What's left over after the build** — the bulk-pack surplus, spare boards, extra strip — is tracked in [inventory.md](../../inventory.md), so future projects don't re-buy what you already own.
 
 > **Manufacturer PNs are listed below.** They're stable; DigiKey stock numbers can change. Search DigiKey by the manufacturer PN to find the current stock SKU.
 

@@ -15,18 +15,29 @@ LED rim turn counter for a removable octagonal gaming table that sits on top of 
 ├── dry_run.pdf                   ← Phase −1 bench checklist, print this for the bench
 ├── dry_run.md                    ← edit this to change the dry-run checklist
 ├── shopping_list.md              ← concrete parts list with PNs and vendors
-├── inventory.md                  ← what was bought + bulk-pack surplus for future projects
+├── ../../inventory.md            ← lives at the bench root now: parts, consumption and bulk-pack
+│                                   surplus shared across every bench project
 ├── requirements.txt              ← Python deps for the PDF build scripts
 ├── Makefile                      ← bench shortcuts: make flash-tap, make monitor, …
 ├── firmware/                     ← one sketch folder per firmware (arduino-cli/IDE layout)
 │   ├── turn_counter/
-│   │   └── turn_counter.ino      ← main project firmware
+│   │   └── turn_counter.ino      ← main project firmware (roster, game modes, tap-gesture setup, web UI)
+│   ├── eight/
+│   │   └── eight.ino             ← the game with the lid off: eight fixed seats, no setup mode, no Wi-Fi
 │   ├── tap_light/
 │   │   └── tap_light.ino         ← Phase 0 starter (tap-activated desk light, for skill-building)
 │   ├── hello_board/
 │   │   └── hello_board.ino       ← board-connection smoke test (serial heartbeat + onboard RGB)
-│   └── strip_test/
-│       └── strip_test.ino        ← minimal WS2812B smoke test (onboard RGB pixel or short strip)
+│   ├── strip_test/
+│   │   └── strip_test.ino        ← minimal WS2812B smoke test (onboard RGB pixel or short strip)
+│   ├── all_white/
+│   │   └── all_white.ino         ← every LED solid white: separates strip/power faults from firmware
+│   ├── piezo_test/
+│   │   └── piezo_test.ino        ← piezo bring-up: raw ADC reads on all eight channels, nothing filtered
+│   ├── piezo_stream/
+│   │   └── piezo_stream.ino      ← streams all eight channels for scripts/record_piezos.py to characterize
+│   └── libraries/
+│       └── octagon_core/         ← shared table layer: strip geometry, side calibration, tap detection
 └── doc-src/
     ├── build_pdf.py              ← design-doc PDF build script
     ├── build_dry_run_pdf.py      ← dry-run PDF build script
@@ -121,7 +132,7 @@ Off is separate from brightness: the LEDs go dark but mode, roster, whose turn i
 
 ### Build
 
-From the repo root, in a virtual environment (required on systems with PEP 668, including recent Homebrew Python on macOS and Debian/Ubuntu):
+From this project directory — `projects/octagonal-led-turn-counter`, not the bench root — in a virtual environment (required on systems with PEP 668, including recent Homebrew Python on macOS and Debian/Ubuntu):
 
 ```bash
 python3 -m venv .venv
@@ -132,6 +143,11 @@ python3 doc-src/build_dry_run_pdf.py    # dry run     → dry_run.pdf
 ```
 
 > Windows users: substitute `py` for `python3` in the commands above.
+
+The `make` targets are the shorter route to the same thing, and they do not need you to
+change directory at all — from the bench root, drive any of them with
+`make -C projects/octagonal-led-turn-counter <target>` (for example
+`make -C projects/octagonal-led-turn-counter pdf`).
 
 `build_pdf.py` reads `turn_counter_design_doc.md` from the root and the SVGs from `doc-src/`, then writes `turn_counter_design_doc.pdf` back to the root. `build_dry_run_pdf.py` reads `dry_run.md` and writes `dry_run.pdf`. Both share the stylesheet in `doc-src/doc_style.py`, so the two PDFs stay visually consistent — edit styling there once.
 
