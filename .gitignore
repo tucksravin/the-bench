@@ -5,6 +5,11 @@
 # Never wanted anywhere in the tree, at any depth. Left unanchored deliberately,
 # as defense in depth: a future project whose own .gitignore forgets these is
 # still covered.
+#
+# .claude/ is already hidden by this machine's global ignore file, but that is
+# machine-local — a clone elsewhere would not inherit it, and this repo is
+# public. Stating it here makes the protection travel with the repo.
+.claude/
 .venv/
 __pycache__/
 *.pyc
