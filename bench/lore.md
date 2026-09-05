@@ -103,6 +103,18 @@ As of 2026-08-16 the table runs off a USB wall adapter (was a powerbank), and
 **the wiring is set as it stands** — mid/end injection and the split-cable
 rewire are deferred indefinitely.
 
+**Two sketches carry two different caps with two different restore targets.**
+They are not in tension, and conflating them has caused confusion twice:
+
+| Sketch | Cap now | Restore target | Limited by |
+|---|---|---|---|
+| `tap_light.ino` | `MAX_POWER_MA 700` | **4500** | the 5 A fuse ceiling |
+| `octagon_core.h` (turn_counter, eight) | `MAX_POWER_MA 1500` | **~2500** | the dev board's own 5 V trace (~1.5–2 A) |
+
+4500 is tap_light's fuse-limited ceiling once injection is wired. 2500 is
+octagon_core's ceiling once 5 V is split at the source so LED current bypasses
+the board. Neither is "the" cap.
+
 **Do not raise `MAX_POWER_MA` because the supply improved.** Two independent
 limits, neither of which is the power source:
 
@@ -141,3 +153,18 @@ byte-identical every time.
 actually changed, and `git checkout` the rest. Otherwise every documentation
 commit drags ~461 KB of incompressible noise behind it. Measured 2026-09-04
 on weasyprint 66.0.
+
+### Relative links in PDFs, and what still doesn't work
+
+The builders originally passed `base_url=str(doc_dir)` while reading their
+markdown from `out_dir` — off by one directory, so every relative link in a
+built PDF pointed somewhere that did not exist. Fixed 2026-09-04 to
+`base_url=str(out_dir)`. Safe because images are inlined as SVG *text* and never
+resolved through `base_url`; nothing else in the CSS or HTML references a
+relative resource.
+
+**Still true, and probably unfixable this way:** WeasyPrint turns a relative
+markdown link into an **absolute `file://` URL** baked into the PDF. So the
+links work only on the machine that built it, at that exact path — move the repo
+and they dangle again. If PDF hyperlinks ever need to survive being shared,
+point them at the GitHub URLs rather than relative paths.

@@ -84,7 +84,7 @@ with open(doc_dir / '_build_dry_run.html', 'w') as f:
     f.write(html_doc)
 
 pdf_path = out_dir / 'dry_run.pdf'
-HTML(string=html_doc, base_url=str(doc_dir)).write_pdf(
+HTML(string=html_doc, base_url=str(out_dir)).write_pdf(
     pdf_path,
     stylesheets=[CSS(string=BASE_CSS), CSS(string=footer_css)]
 )

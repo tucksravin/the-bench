@@ -101,7 +101,10 @@ with open(doc_dir / '_build_simple.html', 'w') as f:
     f.write(html_doc)
 
 pdf_path = out_dir / 'design_doc_simple.pdf'
-HTML(string=html_doc, base_url=str(doc_dir)).write_pdf(
+# base_url is out_dir, not doc_dir: the markdown lives at the project root, so its
+# relative links (e.g. ../../inventory.md) must resolve from there. Images are
+# inlined as SVG text above and never go through base_url.
+HTML(string=html_doc, base_url=str(out_dir)).write_pdf(
     pdf_path,
     stylesheets=[CSS(string=BASE_CSS), CSS(string=footer_css)]
 )

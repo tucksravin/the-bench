@@ -189,7 +189,7 @@ with open(doc_dir / '_build_doc.html', 'w') as f:
     f.write(html_doc)
 
 pdf_path = out_dir / 'turn_counter_design_doc.pdf'
-HTML(string=html_doc, base_url=str(doc_dir)).write_pdf(
+HTML(string=html_doc, base_url=str(out_dir)).write_pdf(
     pdf_path,
     stylesheets=[CSS(string=css)]
 )
