@@ -7,6 +7,7 @@ Workshop monorepo — physical/bench builds and the shared context behind them.
 | Project | What it is |
 |---|---|
 | [`projects/octagonal-led-turn-counter/`](projects/octagonal-led-turn-counter/) | ESP32-S3 LED rim turn counter for an octagonal gaming table |
+| [`projects/portable-court-lights/`](projects/portable-court-lights/) | Carry-in battery lights for one beach volleyball court, for about 2 h of play after dark |
 
 ## Shared layer
 

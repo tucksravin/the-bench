@@ -86,7 +86,7 @@ Pine 1×6 scrap, #8 wood screws (¾" + 1.5"), P-clips / adhesive mounts, ½–�
 
 Owned by the bench; available to any project. Consumables among them (**bold**) deplete — restock when low.
 
-Pinecil V2 iron · **Kester 63/37 solder (1 lb)** · Hakko CHP-170 cutters · Irwin 2078300 strippers · AstroAI DM6000AR multimeter · helping hands · **Kester 951 flux pen** · **Eventronic heat-shrink kit** · **MG Chemicals 4-25 solder wick** · silicone bench mat · IWISS ferrule crimper + **ferrule assortment**.
+Pinecil V2 iron · **Kester 63/37 solder (1 lb)** · Hakko CHP-170 cutters · Irwin 2078300 strippers · AstroAI DM6000AR multimeter · helping hands · **Kester 951 flux pen** · **Eventronic heat-shrink kit** · **MG Chemicals 4-25 solder wick** · silicone bench mat · IWISS ferrule crimper + **ferrule assortment** · Rockpals 250 W power station (240 Wh, pure sine AC).
 
 **Bench organization:** Akro-Mils 10164 (64-drawer) · Plano 3700 ProLatch · IKEA SKÅDIS pegboard + hooks · solder spool stand.
 

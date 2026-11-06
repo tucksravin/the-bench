@@ -9,6 +9,7 @@ docs. This root holds only what is genuinely shared across builds.
 | Project | What it is |
 |---|---|
 | `projects/octagonal-led-turn-counter/` | ESP32-S3 LED rim turn counter for an octagonal gaming table — 8 piezo seats, WS2812B rim, Wi-Fi phone control |
+| `projects/portable-court-lights/` | Carry-in battery lights for one beach volleyball court — two 12 ft stands, 50 W floods, about 2 h after dark. Docs only so far |
 
 `ls projects/` is the live index. Read a project's own `README.md` before
 working in it.
