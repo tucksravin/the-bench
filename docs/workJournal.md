@@ -58,3 +58,66 @@ local or remote, nothing in flight.
 
 **What changed today.** `CLAUDE.md` gained "The work journal", and this file
 exists.
+
+## 2026-11-06 — Portable court lights opened as the second bench project (`017b360`)
+
+**Why.** The user asked for a cheap way to light the Ocean Park beach volleyball
+courts for night play. The answer took one long chat, with web research at each
+step. Then the user asked to put the result in the bench as the next project.
+`projects/portable-court-lights/` is the record of that chat. It is docs only: a
+README with the plan, and a shopping list.
+
+**How the plan moved.** The first answer was two 1 kWh power stations and four
+100 W floods, at about $1,500–2,700. Two facts from the user changed it. First,
+the courts are on Santa Monica State Beach. City beach lots there close at 7pm
+in winter and 9pm in summer (Ordinance 2859, adopted 2026-06-23). That limits a
+session after dark to about 2 hours.
+
+Second, the user owns a Rockpals 250 W (240 Wh) and accepted less light for a
+lower cost. Plan A is now two units of about 250 Wh, 100 W at each stand, about
+10 fc. Plan B is a DIY 12 V LiFePO4 box, because the user has some electrical
+skill.
+
+**Beliefs corrected on contact.** The first answer assumed a park on grass. The
+user meant the beach. That changed the free zone (3 m), the stand feet, the
+parking clock and the permit question. The city Pier Courts at 1560 Appian Way
+already have lights and take reservations. That was the cheapest answer, but the
+group plays at Ocean Park.
+
+The chat said four plywood squares, but two tripods have six legs. The shopping
+list says six.
+
+**Honest accounting.** The chat put the DIY box at $330–500 and Plan B at
+$750–1,300. The itemized shopping list gives $390–570 for the box and
+$1,000–1,550 for Plan B. The chat left out the site kit, the 100 ft cord and the
+watt meter. It also priced the inverter below the Renogy listing.
+
+At $390–570, an Anker SOLIX C1000 Gen 2 at about $450 costs the same as the box
+or less. The chat did not see that. The README now says to buy the Anker at that
+price.
+
+**What is not confirmed.** The session network blocked santamonica.gov and
+1000bulbs.com, so all specs and hours come from search summaries. No source
+confirms these four things:
+
+- the closing time of the Ocean Park lot
+- permission for temporary lights on the beach
+- the beam angle of the Halco 10344
+- if the Halco has a cord or bare leads
+
+The prices come from listings on 2026-11-06. Rows marked "est." have no listing
+behind them.
+
+**What this session left out, and why.** The project has no `Makefile`, `.venv`
+or `requirements.txt`, because it has no code. Until it has a `Makefile`,
+`make PROJ=portable-court-lights <target>` from the root will fail.
+`bench/adding-a-project.md` gets no provenance row, because the project started
+here and is not an import. `inventory.md` gets no drawdown, because the project
+consumes nothing yet. The inventory gains the Rockpals under tools.
+
+**State.** `main` is at `017b360` plus this entry. Nothing else is in flight.
+The next step is the bench test in the project README.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $2.70, 249,521
+input tokens, 65,579 output tokens, 3,326,882 cache-read tokens and 108,309
+cache-write tokens, from `get_session` before this entry.
