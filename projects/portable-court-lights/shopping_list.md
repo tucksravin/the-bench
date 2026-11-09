@@ -12,14 +12,16 @@ project takes nothing from bench stock.
 
 | Qty | Part | ~$ | Notes |
 |----:|------|---:|-------|
-| 1 | 60 W plug-in flood, 2-pack | est. 25–35 | Onforu 60 W, or an alternative from the Kit 2 table. |
-| 2 | Stand | 95 friend | A stand with a T-bar makes the Kit 2 upgrade simpler. |
-| 1 | Outdoor extension cord, 50 ft, 16/3 | est. 20–25 | Under the net, from the Rockpals at S1 to S2. |
-| 2 | Outdoor extension cord, 15–25 ft | 9 friend | From the stand base up to the flood. |
-| 2 | Bolt, fender washer and wing nut set | est. 5 | The size depends on the stand. |
+| 1 | Onforu 80 W plug-in flood, 2-pack, `B07MNLBD7W` | est. 29 | $29 at one reseller. Make sure that the listing says "with plug". |
+| 1 | GE outdoor cord, 40 ft, green, `B0DJDGQK32` | 13.59 | 16 AWG, grounded, 1,625 W. Price from the listing text that the user sent. |
+| 2 | GE outdoor cord, 20 ft, green, same listing | 10.39 | One down each stud. |
+| 2 | Stud, 2x4, 8 ft | est. 4 | Hardware store. |
+| 1 | Endless-loop strap, 1 in., 6 ft or longer, 4-pack | est. 15 | Cam buckle or ratchet. No hooks. |
+| — | Scrap wood for two cleats, screws, two bolts with washers and nuts | est. 5 | |
+| 1 | Hook-and-loop ties, pack | est. 5 | To hold the cord on the net. |
 
-The total is about $260–280. If the Rockpals has one AC outlet, add an outdoor
-splitter.
+The total is about $100. If the Rockpals has one AC outlet, add an outdoor
+splitter. Stands are the fallback. The Kit 2 table has the stand options.
 
 ## Cart for Kit 2
 

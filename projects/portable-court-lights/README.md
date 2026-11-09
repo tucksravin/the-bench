@@ -11,7 +11,8 @@ Park, so this kit is for Ocean Park.
 
 **Status (2026-11-09):** the field test is done, with a borrowed kit. Nothing is
 bought. The user chose the [starter kit](#starter-kit-current-plan) on
-2026-11-09. The other kits are the upgrades.
+2026-11-09, with a post mount in place of stands. The other kits are the
+upgrades.
 
 This project is docs only. It has no firmware, scripts, `Makefile` or `.venv`.
 [`shopping_list.md`](shopping_list.md) has the parts, the prices and the
@@ -105,18 +106,40 @@ before tax. The shopping list has the sums.
 
 ### Starter kit (current plan)
 
-The starter kit is the minimum. It has two 60 W floods, one on each stand, and
-the Rockpals is the only battery. It costs about $260–280.
+The starter kit is the minimum. It has two Onforu 80 W floods, and the Rockpals
+is the only battery. It has no stands. Each flood goes on a stud that is
+strapped to a net post. It costs about $100.
 
-- The two floods use 120 W. The Rockpals runs them for about 1.7 hours.
-- The claim is 12,000 lm in total. That is about 60% of the light in the field
-  test, which had two floods of about 100 W.
-- Put the Rockpals at the base of S1. Run one 50 ft outdoor cord under the net
-  to S2. The user chose this path on 2026-11-09.
-- The path under the net is about 46 ft. Bury the cord on the net line.
-- A short cord goes up each stand to the flood.
-- If the light is not sufficient, add two more 60 W floods and one small
-  battery. That is Kit 2.
+- The two floods use 160 W. The Rockpals runs them for about 1.25 hours.
+- The Amazon listing claims 8,000 lm for each flood. The Onforu site gives 4,500
+  lm for an 80 W model. The real output is not known.
+- If the light is not sufficient, add a second flood to each stud and add a
+  battery.
+
+The post mount:
+
+- The user says the net posts are thick wood. The plan assumes a post height of
+  about 8 ft. Measure a post before you build.
+- Use one 8 ft stud (2x4) for each post. An 8 ft stud fits a 5.5 ft truck bed
+  with the tailgate down.
+- Screw a cleat across the stud, 4 ft from the bottom. The cleat sits on the
+  top of the post and holds the weight.
+- Strap the bottom 4 ft of the stud to the post with two straps. The top of the
+  stud is then about 12 ft high.
+- Bolt the flood to the top of the stud at home.
+- Do not put screws in the post. Put the straps on bare wood, not on a pad.
+- Use 1 in. endless-loop straps, 6 ft or longer, with a cam buckle or a ratchet.
+
+The cords:
+
+- Put the Rockpals at the base of one post.
+- Run a 40 ft cord along the bottom edge of the net to the other post. Hold it
+  with hook-and-loop ties. The posts are about 33 ft apart.
+- Run a 20 ft cord down each stud.
+- Keep the joint between the 40 ft cord and the 20 ft cord off the sand.
+
+A post is about 1 m from the sideline, so the near corners get less light than
+with a stand at 3 m. Stands are the fallback if the post mount does not work.
 
 ### Small batteries (kits 1, 2 and 3)
 

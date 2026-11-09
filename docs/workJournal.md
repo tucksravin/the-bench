@@ -196,3 +196,26 @@ players step.
 
 Usage: rate limit `seven_day`, status `allowed`, from the `get_session` call of
 the entry before this one. Cost and tokens: n/a for this entry.
+
+## 2026-11-09 — The starter kit moved from stands to the net posts (`main`)
+
+**Why.** The user saw that the net posts are thick wood and are where the
+lights must be. A stud strapped to each post replaces a $95 stand. The starter
+kit cost falls from about $260–280 to about $100.
+
+**How the mount got its shape.** The first idea was a 12 ft stud that stands on
+the sand. The user has a 5.5 ft truck bed, so 12 ft is too long. An 8 ft stud
+with a cleat that sits on the post top gives the same 12 ft height. A hinged
+stud was rejected, because the hinge is at the point of most bend.
+
+**Other changes.** The light is now the Onforu 80 W, because the listing has no
+60 W option. Two of them use 160 W, so the Rockpals runtime falls to about 1.25
+hours. The cord now goes along the bottom of the net, not under the sand. The
+user sent the text of the GE cord listing, so those two prices are real.
+
+**What is not confirmed.** Nobody measured a post. The plan assumes 8 ft. The
+output of the 80 W flood is 8,000 lm on Amazon and 4,500 lm on the Onforu site.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $15.14,
+559,099 input tokens, 168,607 output tokens, 20,652,602 cache-read tokens and
+614,970 cache-write tokens, from `get_session` before this entry.
