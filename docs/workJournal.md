@@ -185,3 +185,14 @@ about 118 ft.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $11.76,
 387,669 input tokens, 139,244 output tokens, 12,114,711 cache-read tokens and
 570,012 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-09 — The starter kit cord goes under the net (`main`)
+
+This entry corrects the cord layout in "The user chose a starter kit for the
+court lights". The user will run the cord under the net. That path is about
+46 ft, so one 50 ft cord is sufficient and the kit costs about $260–280. The
+earlier layout went around the court, because a cord on the net line is where
+players step.
+
+Usage: rate limit `seven_day`, status `allowed`, from the `get_session` call of
+the entry before this one. Cost and tokens: n/a for this entry.

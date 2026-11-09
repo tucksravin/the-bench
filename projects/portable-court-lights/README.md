@@ -106,15 +106,15 @@ before tax. The shopping list has the sums.
 ### Starter kit (current plan)
 
 The starter kit is the minimum. It has two 60 W floods, one on each stand, and
-the Rockpals is the only battery. It costs about $280–300.
+the Rockpals is the only battery. It costs about $260–280.
 
 - The two floods use 120 W. The Rockpals runs them for about 1.7 hours.
 - The claim is 12,000 lm in total. That is about 60% of the light in the field
   test, which had two floods of about 100 W.
-- Put the Rockpals 3 m behind one end line, at the center. Run one 50 ft
-  outdoor cord around each corner of the court to each stand.
-- Each cord path is about 59 ft to the stand base. A second cord goes up the
-  stand to the flood.
+- Put the Rockpals at the base of S1. Run one 50 ft outdoor cord under the net
+  to S2. The user chose this path on 2026-11-09.
+- The path under the net is about 46 ft. Bury the cord on the net line.
+- A short cord goes up each stand to the flood.
 - If the light is not sufficient, add two more 60 W floods and one small
   battery. That is Kit 2.
 
