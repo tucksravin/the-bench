@@ -60,6 +60,7 @@ local or remote, nothing in flight.
 exists.
 
 ## 2026-11-06 — Portable court lights opened as the second bench project (`017b360`)
+> Superseded in part by 2026-11-09 — A field test and a parts list from a friend cut the court-lights cost.
 
 **Why.** The user asked for a cheap way to light the Ocean Park beach volleyball
 courts for night play. The answer took one long chat, with web research at each
@@ -121,3 +122,49 @@ The next step is the bench test in the project README.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $2.70, 249,521
 input tokens, 65,579 output tokens, 3,326,882 cache-read tokens and 108,309
 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-09 — A field test and a parts list from a friend cut the court-lights cost (`main`)
+
+**Why.** The user borrowed a kit from a friend and played at night under it.
+Then the user said that the 2026-11-06 prices were too high. The friend's parts
+list proved that. The README and the shopping list now start from the test.
+
+**Measured numbers.** The borrowed kit had two floods of about 100 W for each
+court. Each flood had its own stand, battery and cord. The friend's prices are
+$135 for the battery, $95 for the stand, $18 for the flood and $9 for the cord.
+That is $257 for each light. The battery is 53% of it and the flood is 7%.
+
+**Beliefs corrected on contact.** The 2026-11-06 plan chose Halco floods at
+$57–110 each for their light for each watt. The test shows that an $18 flood is
+sufficient. The plan also had a cart, a site kit and a watt meter, for about
+$275–425. The group carried the borrowed kit with none of them. The plan put a
+bench test before a field test. The user did the field test first, with a
+borrowed kit, and it cost nothing.
+
+**The kits.** The user owns a Rockpals, so the friend's kit costs about $380.
+Four 60 W floods on the same two batteries cost about $440–480. Four 120 W
+floods need three more small batteries and cost about $730–750. The corners are
+the reason for four floods. From the net line, the near corners are 69° off the
+axis of a flood that points straight across.
+
+**One large battery.** The user plans to live out of a truck in about a year,
+so a large power station has a second use. With an Anker SOLIX C2000 Gen 2 at
+$749, four 120 W floods run for about 3.6 hours and the kit costs about
+$1,120–1,160. A 1 kWh unit runs four 120 W floods for only 1.8 hours.
+
+**Defects, named.** WebFetch fails with `ENOTFOUND` for each host in this
+session, also for a host on the allowed list. The user added amazon.com to the
+Personal environment, and that did not help. A plain `curl` then got through the
+proxy, and Amazon answered 503. The session did not use a browser client name
+to get past that. No Amazon price in the shopping list is checked.
+
+**What is not confirmed.** The stand, the power station and the cord are known
+only by ASIN. The price of an Onforu 60 W flood is an estimate. No source
+measured the real draw of the Onforu 120 W flood. The Amazon cart link is not
+tested.
+
+**State.** Nothing is bought. The user did not choose a kit yet.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $10.08,
+249,582 input tokens, 114,496 output tokens, 10,426,758 cache-read tokens and
+533,091 cache-write tokens, from `get_session` before this entry.
