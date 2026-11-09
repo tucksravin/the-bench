@@ -219,3 +219,15 @@ output of the 80 W flood is 8,000 lm on Amazon and 4,500 lm on the Onforu site.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $15.14,
 559,099 input tokens, 168,607 output tokens, 20,652,602 cache-read tokens and
 614,970 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-09 — The starter kit parts are on order (`main`)
+
+The user ordered the Onforu 80 W flood 2-pack, one 40 ft GE cord, two 20 ft GE
+cords and endless-loop straps from Amazon. They arrive on 2026-11-11. The
+inventory has the four lines. The user will buy two 8 ft studs, cleat wood and
+1/4 in. bolts at a lumberyard after the order arrives. The user chose bolts,
+not wood screws, to hold the flood bracket on the stud. The kit is not tested.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $16.24,
+560,639 input tokens, 174,542 output tokens, 24,207,148 cache-read tokens and
+623,710 cache-write tokens, from `get_session` before this entry.

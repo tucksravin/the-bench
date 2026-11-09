@@ -98,4 +98,8 @@ Log anything bought *after* the initial order here (date, part, qty), and note w
 
 | Date | Part | Qty | +/− | Note |
 |------|------|----:|:---:|------|
+| 2026-11-09 | Onforu 80 W plug-in flood, 2-pack (`B07MNLBD7W`) | 1 | + | portable-court-lights starter kit; ordered, due 2026-11-11 |
+| 2026-11-09 | GE outdoor cord, 40 ft, green, 16 AWG (`B0DJDGQK32`) | 1 | + | portable-court-lights; ordered |
+| 2026-11-09 | GE outdoor cord, 20 ft, green, 16 AWG | 2 | + | portable-court-lights; ordered |
+| 2026-11-09 | Endless-loop strap | 1 order | + | portable-court-lights; ordered; size and count not recorded |
 | — | *(e.g. USB powerbank w/ always-on mode + a plain USB cable into the board, if going the §3.5 power-through-the-board route)* | — | + | not yet purchased |

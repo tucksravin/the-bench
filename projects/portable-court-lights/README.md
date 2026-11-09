@@ -9,10 +9,9 @@ courts have no lights. The city has four lit courts at the pier (1560 Appian
 Way), and you can reserve them up to 28 days ahead. The group plays at Ocean
 Park, so this kit is for Ocean Park.
 
-**Status (2026-11-09):** the field test is done, with a borrowed kit. Nothing is
-bought. The user chose the [starter kit](#starter-kit-current-plan) on
-2026-11-09, with a post mount in place of stands. The other kits are the
-upgrades.
+**Status (2026-11-09):** the user ordered the Amazon parts of the
+[starter kit](#starter-kit-current-plan). They arrive on 2026-11-11. The studs,
+the cleats and the bolts are not bought yet. The kit is not tested.
 
 This project is docs only. It has no firmware, scripts, `Makefile` or `.venv`.
 [`shopping_list.md`](shopping_list.md) has the parts, the prices and the
