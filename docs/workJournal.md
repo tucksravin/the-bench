@@ -168,3 +168,20 @@ tested.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $10.08,
 249,582 input tokens, 114,496 output tokens, 10,426,758 cache-read tokens and
 533,091 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-09 — The user chose a starter kit for the court lights (`main`)
+
+**Why.** The user wants the minimum first, and will upgrade if it is not
+sufficient. The starter kit is two 60 W floods, two stands and cords, with the
+Rockpals as the only battery. It costs about $280–300.
+
+**Honest accounting.** The starter kit claims 12,000 lm. That is about 60% of
+the light in the field test, so the test does not prove this kit. With one
+battery, a cord must go to each stand. The path around a corner of the court is
+about 59 ft. Each stand needs a 50 ft cord and a second cord up the stand.
+A 100 ft cord from one stand to the other is too short, because that path is
+about 118 ft.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $11.76,
+387,669 input tokens, 139,244 output tokens, 12,114,711 cache-read tokens and
+570,012 cache-write tokens, from `get_session` before this entry.

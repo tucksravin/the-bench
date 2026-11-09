@@ -8,6 +8,19 @@ each price in the cart.
 **Already on hand:** the Rockpals 250 W power station (240 Wh, pure sine). This
 project takes nothing from bench stock.
 
+## Cart for the starter kit
+
+| Qty | Part | ~$ | Notes |
+|----:|------|---:|-------|
+| 1 | 60 W plug-in flood, 2-pack | est. 25–35 | Onforu 60 W, or an alternative from the Kit 2 table. |
+| 2 | Stand | 95 friend | A stand with a T-bar makes the Kit 2 upgrade simpler. |
+| 2 | Outdoor extension cord, 50 ft, 16/3 | est. 20–25 | From the Rockpals to each stand base. |
+| 2 | Outdoor extension cord, 15–25 ft | 9 friend | From the stand base up to the flood. |
+| 2 | Bolt, fender washer and wing nut set | est. 5 | The size depends on the stand. |
+
+The total is about $280–300. If the Rockpals has one AC outlet, add an outdoor
+splitter.
+
 ## Cart for Kit 2
 
 | Qty | Part | Pick | ~$ | Alternatives |

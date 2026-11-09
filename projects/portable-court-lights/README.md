@@ -10,8 +10,8 @@ Way), and you can reserve them up to 28 days ahead. The group plays at Ocean
 Park, so this kit is for Ocean Park.
 
 **Status (2026-11-09):** the field test is done, with a borrowed kit. Nothing is
-bought. The working plan is Kit 2 in [Kits](#kits). The user also reviews one
-large battery, because it can power a truck camp later.
+bought. The user chose the [starter kit](#starter-kit-current-plan) on
+2026-11-09. The other kits are the upgrades.
 
 This project is docs only. It has no firmware, scripts, `Makefile` or `.venv`.
 [`shopping_list.md`](shopping_list.md) has the parts, the prices and the
@@ -102,6 +102,21 @@ and 3 use the Rockpals as one of the batteries.
 
 The runtime of kits 1, 2 and 3 is the Rockpals runtime at 120 W. The costs are
 before tax. The shopping list has the sums.
+
+### Starter kit (current plan)
+
+The starter kit is the minimum. It has two 60 W floods, one on each stand, and
+the Rockpals is the only battery. It costs about $280–300.
+
+- The two floods use 120 W. The Rockpals runs them for about 1.7 hours.
+- The claim is 12,000 lm in total. That is about 60% of the light in the field
+  test, which had two floods of about 100 W.
+- Put the Rockpals 3 m behind one end line, at the center. Run one 50 ft
+  outdoor cord around each corner of the court to each stand.
+- Each cord path is about 59 ft to the stand base. A second cord goes up the
+  stand to the flood.
+- If the light is not sufficient, add two more 60 W floods and one small
+  battery. That is Kit 2.
 
 ### Small batteries (kits 1, 2 and 3)
 
