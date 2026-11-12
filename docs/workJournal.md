@@ -231,3 +231,29 @@ not wood screws, to hold the flood bracket on the stud. The kit is not tested.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $16.24,
 560,639 input tokens, 174,542 output tokens, 24,207,148 cache-read tokens and
 623,710 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-12 — The starter kit worked on the court (`main`)
+
+**What happened.** The user built the starter kit and the group played under
+it. The user says that the lighting setup worked very well.
+
+**Measured numbers.** On 2026-11-10 the user ran both Onforu 80 W floods on the
+Rockpals at home. At 1 hour 55 minutes they were still on. The final time is
+not recorded. The estimate before the test was 1.25 hours.
+
+**Beliefs corrected on contact.** The estimate used the 80 W label. For a
+runtime of more than 1 hour 55 minutes on a 240 Wh battery, the two floods draw
+about 105–125 W together. That is about 50–60 W for each flood. The friend said
+that these floods draw less than the label, and the test agrees.
+
+**Honest accounting.** The first plan, on 2026-11-06, cost about $1,500–2,700.
+The kit that worked costs about $100, with a battery that the user owned. The
+three large savings came from the user and the friend: the field test with a
+borrowed kit, the cheap floods, and the net posts in place of stands.
+
+**What is not recorded.** The final runtime, the post height, the strap size,
+and how well the corners were lit.
+
+Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $21.60,
+561,152 input tokens, 176,976 output tokens, 25,716,810 cache-read tokens and
+933,566 cache-write tokens, from `get_session` before this entry.

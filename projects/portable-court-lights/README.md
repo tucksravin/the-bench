@@ -9,9 +9,9 @@ courts have no lights. The city has four lit courts at the pier (1560 Appian
 Way), and you can reserve them up to 28 days ahead. The group plays at Ocean
 Park, so this kit is for Ocean Park.
 
-**Status (2026-11-09):** the user ordered the Amazon parts of the
-[starter kit](#starter-kit-current-plan). They arrive on 2026-11-11. The studs,
-the cleats and the bolts are not bought yet. The kit is not tested.
+**Status (2026-11-12):** the starter kit is built and the group played under
+it. The user says that it worked very well. In a home test, the Rockpals ran
+both floods for more than 1 hour 55 minutes. No upgrade is necessary now.
 
 This project is docs only. It has no firmware, scripts, `Makefile` or `.venv`.
 [`shopping_list.md`](shopping_list.md) has the parts, the prices and the
@@ -109,7 +109,9 @@ The starter kit is the minimum. It has two Onforu 80 W floods, and the Rockpals
 is the only battery. It has no stands. Each flood goes on a stud that is
 strapped to a net post. It costs about $100.
 
-- The two floods use 160 W. The Rockpals runs them for about 1.25 hours.
+- The label says 160 W for the two floods. The home test of 2026-11-10 shows a
+  real draw of about 105–125 W, because the Rockpals ran them for more than
+  1 hour 55 minutes.
 - The Amazon listing claims 8,000 lm for each flood. The Onforu site gives 4,500
   lm for an 80 W model. The real output is not known.
 - If the light is not sufficient, add a second flood to each stud and add a
