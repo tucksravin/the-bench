@@ -257,3 +257,12 @@ and how well the corners were lit.
 Usage: rate limit `seven_day`, status `allowed`, no overage. Cost $21.60,
 561,152 input tokens, 176,976 output tokens, 25,716,810 cache-read tokens and
 933,566 cache-write tokens, from `get_session` before this entry.
+
+## 2026-11-12 — The user set the upgrade path for the court lights (`main`)
+
+The user says that the starter kit is sufficient as it is. If the user buys a
+larger battery for another reason, the upgrade is a crossbar on each stud and
+two more floods. The README has this. Nothing is planned or bought.
+
+Usage: rate limit `seven_day`, status `allowed`, from the `get_session` call of
+the entry before this one. Cost and tokens: n/a for this entry.

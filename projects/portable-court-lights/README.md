@@ -114,8 +114,10 @@ strapped to a net post. It costs about $100.
   1 hour 55 minutes.
 - The Amazon listing claims 8,000 lm for each flood. The Onforu site gives 4,500
   lm for an 80 W model. The real output is not known.
-- If the light is not sufficient, add a second flood to each stud and add a
-  battery.
+- The kit is sufficient as it is (the user, 2026-11-12).
+- The upgrade, if the user buys a larger battery for another reason: add a
+  crossbar to each stud and two more floods. The Rockpals limit is 250 W, so
+  four floods need the larger battery.
 
 The post mount:
 
